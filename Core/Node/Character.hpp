@@ -1,5 +1,5 @@
 #pragma once
-#include "Node.h"
+#include "Node.hpp"
 
 #include <iostream>
 
@@ -21,4 +21,5 @@ class Character: public Node {
             running = false; // Stop processing after this
         }
     }
+    void _ending();
 };

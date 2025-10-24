@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Node/Character.h"
+#include "Node/Character.hpp"
 
 int main() {
     Character character = Character();
